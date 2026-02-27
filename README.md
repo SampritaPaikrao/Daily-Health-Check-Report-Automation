@@ -4,6 +4,7 @@ This project is a serverless AWS monitoring solution built using AWS Lambda that
 
 It evaluates CPU, Memory, and Disk utilization over the last 24 hours, generates a health status, exports the data into an Excel report, uploads it to Amazon S3, and sends the report via email using Amazon SES.
 
+
 A. FEATURES
 
  1. Monitor EC2 and RDS instances
