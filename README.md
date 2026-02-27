@@ -15,6 +15,7 @@ A. FEATURES
  7. Email report automatically using Amazon SES
  8. Fully serverless & automated
 
+
 B. TECH STACK
 
  1. AWS Lambda (Python)
@@ -25,6 +26,7 @@ B. TECH STACK
  6. Amazon SES
  7. OpenPyXL (Excel generation)
 
+
 C. ARCHITECTURE OVERVIEW
 
  1. Lambda is triggered manually or via scheduler
@@ -34,6 +36,7 @@ C. ARCHITECTURE OVERVIEW
  5. Excel report generated
  6. Report uploaded to S3
  7. Email sent with Excel attachment
+
 
 D. METRICS COLLECTED
 
@@ -47,6 +50,7 @@ D. METRICS COLLECTED
     - FreeableMemory → Converted to Memory Used (%)
     - FreeStorageSpace → Converted to Disk Used (%)
 
+
 E. EXCEL REPORTS INCLUDES
 
  1. Resource Type (EC2 / RDS)
@@ -58,6 +62,7 @@ E. EXCEL REPORTS INCLUDES
  7. Overall health status
  8. Timestamp
 
+
 F. IAM PERMISSION REQUIRED
 
  1. CloudWatch: GetMetricStatistics
@@ -66,6 +71,7 @@ F. IAM PERMISSION REQUIRED
  4. S3: PutObject
  5. SES: SendRawEmail
 
+
 G. USE CASES
 
  1. Daily infrastructure health checks
@@ -73,6 +79,7 @@ G. USE CASES
  3. Cost visibility & optimization
  4. Ops / DevOps automation
  5. Production readiness reporting
+
 
 H. NOTES
 
